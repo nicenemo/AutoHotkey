@@ -5,7 +5,7 @@ It can be useful for screencasts or remote help.
 
 It is implemented as an [Autohotkey](http://www.autohotkey.com/) script.
 
-![screenshot](https://cloud.githubusercontent.com/assets/981184/5126844/7eb761e6-70d0-11e4-9ba9-136273490cab.png)
+![screenshot]screenshot.png)
 
 ### Customization
 
