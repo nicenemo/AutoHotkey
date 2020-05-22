@@ -49,6 +49,11 @@ The following keys groups were made inactive:
 
 This variant only blocks the top numbers, like the 40% keyboard, but does not block any other keys.
 
+## Blocking hack, map to F24
+
+If I correctly understand the Autohotkey manual making a key do nothing should be done by just doing a return.
+Unfortunately that had some weird side effects. For layer two we noticed that I could press type 7,8 and 9 using the keys on the second row from the bottom. However pressing _a_ for _1_, _s_ for _2_ etc. Did not work. Performing a Beep instead did not work. When I mapped to _q_ instead it worked. Instead of mapping to _q_, I mapped to _F24_. If you have _F24_ on your keyboard, I am curious to know what board that is.
+
 ## Future work
 
 * A 40% and 60% variant with vim mapping for the cursor keys

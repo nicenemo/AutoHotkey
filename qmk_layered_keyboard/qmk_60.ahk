@@ -85,8 +85,7 @@ CapsLock::Control
 
 
   ;////////////////////////////////////////////////////////////
-  ; Blocked keys for 60 % keyboard.
-
+  ; Blocked keys for 60 % keyboard:
   ; The following keys groups were made inactive:
   ;  - Function keys
   ;  - printScreen Scrollock Pause
@@ -100,342 +99,342 @@ CapsLock::Control
   ; 
   ;////////////////////////////////////////////////////////////
 
-  F1:: ;
-  F2:: ;
-  F3:: ;
-  F4:: ;
-  F5:: ;
-  F6:: ;
-  F7:: ;
-  F8:: ;
-  F9:: ;
-  F10:: ;
-  F11:: ;
-  F12:: ;
-  F13:: ;
-  F14:: ;
-  F15:: ;
-  F16:: ;
+  F1::F24 ;
+  F2::F24 ;
+  F3::F24 ;
+  F4::F24 ;
+  F5::F24 ;
+  F6::F24 ;
+  F7::F24 ;
+  F8::F24 ;
+  F9::F24 ;
+  F10::F24 ;
+  F11::F24 ;
+  F12::F24 ;
+  F13::F24 ;
+  F14::F24 ;
+  F15::F24 ;
+  F16::F24 ;
   
-  +F1:: ;
-  +F2:: ;
-  +F3:: ;
-  +F4:: ;
-  +F5:: ;
-  +F6:: ;
-  +F7:: ;
-  +F8:: ;
-  +F9:: ;
-  +F10:: ;
-  +F11:: ;
-  +F12:: ;
-  +F13:: ;
-  +F14:: ;
-  +F15:: ;
-  +F16:: ;
+  +F1::F24 ;
+  +F2::F24 ;
+  +F3::F24 ;
+  +F4::F24 ;
+  +F5::F24 ;
+  +F6::F24 ;
+  +F7::F24 ;
+  +F8::F24 ;
+  +F9::F24 ;
+  +F10::F24 ;
+  +F11::F24 ;
+  +F12::F24 ;
+  +F13::F24 ;
+  +F14::F24 ;
+  +F15::F24 ;
+  +F16::F24 ;
 
-  ^F1:: ;
-  ^F2:: ;
-  ^F3:: ;
-  ^F4:: ;
-  ^F5:: ;
-  ^F6:: ;
-  ^F7:: ;
-  ^F8:: ;
-  ^F9:: ;
-  ^F10:: ;
-  ^F11:: ;
-  ^F12:: ;
-  ^F13:: ;
-  ^F14:: ;
-  ^F15:: ;
-  ^F16:: ;
+  ^F1::F24 ;
+  ^F2::F24 ;
+  ^F3::F24 ;
+  ^F4::F24 ;
+  ^F5::F24 ;
+  ^F6::F24 ;
+  ^F7::F24 ;
+  ^F8::F24 ;
+  ^F9::F24 ;
+  ^F10::F24 ;
+  ^F11::F24 ;
+  ^F12::F24 ;
+  ^F13::F24 ;
+  ^F14::F24 ;
+  ^F15::F24 ;
+  ^F16::F24 ;
 
-  !F1:: ;
-  !F2:: ;
-  !F3:: ;
-  !F4:: ;
-  !F5:: ;
-  !F6:: ;
-  !F7:: ;
-  !F8:: ;
-  !F9:: ;
-  !F10:: ;
-  !F11:: ;
-  !F12:: ;
-  !F13:: ;
-  !F14:: ;
-  !F15:: ;
-  !F16:: ;
+  !F1::F24 ;
+  !F2::F24 ;
+  !F3::F24 ;
+  !F4::F24 ;
+  !F5::F24 ;
+  !F6::F24 ;
+  !F7::F24 ;
+  !F8::F24 ;
+  !F9::F24 ;
+  !F10::F24 ;
+  !F11::F24 ;
+  !F12::F24 ;
+  !F13::F24 ;
+  !F14::F24 ;
+  !F15::F24 ;
+  !F16::F24 ;
 
-  #F1:: ;
-  #F2:: ;
-  #F3:: ;
-  #F4:: ;
-  #F5:: ;
-  #F6:: ;
-  #F7:: ;
-  #F8:: ;
-  #F9:: ;
-  #F10:: ;
-  #F11:: ;
-  #F12:: ;
-  #F13:: ;
-  #F14:: ;
-  #F15:: ;
-  #F16:: ;
+  #F1::F24 ;
+  #F2::F24 ;
+  #F3::F24 ;
+  #F4::F24 ;
+  #F5::F24 ;
+  #F6::F24 ;
+  #F7::F24 ;
+  #F8::F24 ;
+  #F9::F24 ;
+  #F10::F24 ;
+  #F11::F24 ;
+  #F12::F24 ;
+  #F13::F24 ;
+  #F14::F24 ;
+  #F15::F24 ;
+  #F16::F24 ;
 
-  PrintScreen:: ;
-  ScrollLock:: ;
-  Pause:: ;
+  PrintScreen::F24 ;
+  ScrollLock::F24 ;
+  Pause::F24 ;
 
-  +PrintScreen:: ;
-  +ScrollLock:: ;
-  +Pause:: ;
+  +PrintScreen::F24 ;
+  +ScrollLock::F24 ;
+  +Pause::F24 ;
 
-  ^PrintScreen:: ;
-  ^ScrollLock:: ;
-  ^Pause:: ;
+  ^PrintScreen::F24 ;
+  ^ScrollLock::F24 ;
+  ^Pause::F24 ;
 
-  !PrintScreen:: ;
-  !ScrollLock:: ;
-  !Pause:: ;
+  !PrintScreen::F24 ;
+  !ScrollLock::F24 ;
+  !Pause::F24 ;
 
-  #PrintScreen:: ;
-  #ScrollLock:: ;
-  #Pause:: ;
+  #PrintScreen::F24 ;
+  #ScrollLock::F24 ;
+  #Pause::F24 ;
 
-  Del:: ;
-  Ins:: ;
-  Home:: ;
-  End:: ;
-  PgUp:: ;
-  PgDn:: ;
+  Del::F24 ;
+  Ins::F24 ;
+  Home::F24 ;
+  End::F24 ;
+  PgUp::F24 ;
+  PgDn::F24 ;
 
-  +Del:: ;
-  +Ins:: ;
-  +Home:: ;
-  +End:: ;
-  +PgUp:: ;
-  +PgDn:: ;
+  +Del::F24 ;
+  +Ins::F24 ;
+  +Home::F24 ;
+  +End::F24 ;
+  +PgUp::F24 ;
+  +PgDn::F24 ;
   
-  ^Del:: ;
-  ^Ins:: ;
-  ^Home:: ;
-  ^End:: ;
-  ^PgUp:: ;
-  ^PgDn:: ;
+  ^Del::F24 ;
+  ^Ins::F24 ;
+  ^Home::F24 ;
+  ^End::F24 ;
+  ^PgUp::F24 ;
+  ^PgDn::F24 ;
 
-  !Del:: ;
-  !Ins:: ;
-  !Home:: ;
-  !End:: ;
-  !PgUp:: ;
-  !PgDn:: ;
+  !Del::F24 ;
+  !Ins::F24 ;
+  !Home::F24 ;
+  !End::F24 ;
+  !PgUp::F24 ;
+  !PgDn::F24 ;
   
-  #Del:: ;
-  #Ins:: ;
-  #Home:: ;
-  #End:: ;
-  #PgUp:: ;
-  #PgDn:: ;
+  #Del::F24 ;
+  #Ins::F24 ;
+  #Home::F24 ;
+  #End::F24 ;
+  #PgUp::F24 ;
+  #PgDn::F24 ;
   
 
-  Up:: ;
-  Down:: ;
-  Left:: ;
-  Right:: ;
+  Up::F24 ;
+  Down::F24 ;
+  Left::F24 ;
+  Right::F24 ;
 
-  +Up:: ;
-  +Down:: ;
-  +Left:: ;
-  +Right:: ;
+  +Up::F24 ;
+  +Down::F24 ;
+  +Left::F24 ;
+  +Right::F24 ;
 
-  ^Up:: ;
-  ^Down:: ;
-  ^Left:: ;
-  ^Right:: ;
+  ^Up::F24 ;
+  ^Down::F24 ;
+  ^Left::F24 ;
+  ^Right::F24 ;
 
-  !Up:: ;
-  !Down:: ;
-  !Left:: ;
-  !Right:: ;
+  !Up::F24 ;
+  !Down::F24 ;
+  !Left::F24 ;
+  !Right::F24 ;
 
-  #Up:: ;
-  #Down:: ;
-  #Left:: ;
-  #Right:: ;
+  #Up::F24 ;
+  #Down::F24 ;
+  #Left::F24 ;
+  #Right::F24 ;
 
-  Numpad0:: ;
-  Numpad1:: ;
-  Numpad2:: ;
-  Numpad3:: ;
-  Numpad4:: ;
-  Numpad5:: ;
-  Numpad6:: ;
-  Numpad7:: ;
-  Numpad8:: ;
-  Numpad9:: ;
+  Numpad0::F24 ;
+  Numpad1::F24 ;
+  Numpad2::F24 ;
+  Numpad3::F24 ;
+  Numpad4::F24 ;
+  Numpad5::F24 ;
+  Numpad6::F24 ;
+  Numpad7::F24 ;
+  Numpad8::F24 ;
+  Numpad9::F24 ;
 
-  +Numpad0:: ;
-  +Numpad1:: ;
-  +Numpad2:: ;
-  +Numpad3:: ;
-  +Numpad4:: ;
-  +Numpad5:: ;
-  +Numpad6:: ;
-  +Numpad7:: ;
-  +Numpad8:: ;
-  +Numpad9:: ;
+  +Numpad0::F24 ;
+  +Numpad1::F24 ;
+  +Numpad2::F24 ;
+  +Numpad3::F24 ;
+  +Numpad4::F24 ;
+  +Numpad5::F24 ;
+  +Numpad6::F24 ;
+  +Numpad7::F24 ;
+  +Numpad8::F24 ;
+  +Numpad9::F24 ;
 
-  ^Numpad0:: ;
-  ^Numpad1:: ;
-  ^Numpad2:: ;
-  ^Numpad3:: ;
-  ^Numpad4:: ;
-  ^Numpad5:: ;
-  ^Numpad6:: ;
-  ^Numpad7:: ;
-  ^Numpad8:: ;
-  ^Numpad9:: ;
+  ^Numpad0::F24 ;
+  ^Numpad1::F24 ;
+  ^Numpad2::F24 ;
+  ^Numpad3::F24 ;
+  ^Numpad4::F24 ;
+  ^Numpad5::F24 ;
+  ^Numpad6::F24 ;
+  ^Numpad7::F24 ;
+  ^Numpad8::F24 ;
+  ^Numpad9::F24 ;
 
-  !Numpad0:: ;
-  !Numpad1:: ;
-  !Numpad2:: ;
-  !Numpad3:: ;
-  !Numpad4:: ;
-  !Numpad5:: ;
-  !Numpad6:: ;
-  !Numpad7:: ;
-  !Numpad8:: ;
-  !Numpad9:: ;
+  !Numpad0::F24 ;
+  !Numpad1::F24 ;
+  !Numpad2::F24 ;
+  !Numpad3::F24 ;
+  !Numpad4::F24 ;
+  !Numpad5::F24 ;
+  !Numpad6::F24 ;
+  !Numpad7::F24 ;
+  !Numpad8::F24 ;
+  !Numpad9::F24 ;
 
-  #Numpad0:: ;
-  #Numpad1:: ;
-  #Numpad2:: ;
-  #Numpad3:: ;
-  #Numpad4:: ;
-  #Numpad5:: ;
-  #Numpad6:: ;
-  #Numpad7:: ;
-  #Numpad8:: ;
-  #Numpad9:: ;
+  #Numpad0::F24 ;
+  #Numpad1::F24 ;
+  #Numpad2::F24 ;
+  #Numpad3::F24 ;
+  #Numpad4::F24 ;
+  #Numpad5::F24 ;
+  #Numpad6::F24 ;
+  #Numpad7::F24 ;
+  #Numpad8::F24 ;
+  #Numpad9::F24 ;
 
-  NumpadAdd:: ;
-  NumpadSub:: ;
-  NumpadMult:: ;
-  NumpadDiv:: ;
+  NumpadAdd::F24 ;
+  NumpadSub::F24 ;
+  NumpadMult::F24 ;
+  NumpadDiv::F24 ;
 
-  +NumpadAdd:: ;
-  +NumpadSub:: ;
-  +NumpadMult:: ;
-  +NumpadDiv:: ; 
+  +NumpadAdd::F24 ;
+  +NumpadSub::F24 ;
+  +NumpadMult::F24 ;
+  +NumpadDiv::F24 ; 
 
-  ^NumpadAdd:: ;
-  ^NumpadSub:: ;
-  ^NumpadMult:: ;
-  ^NumpadDiv:: ; 
+  ^NumpadAdd::F24 ;
+  ^NumpadSub::F24 ;
+  ^NumpadMult::F24 ;
+  ^NumpadDiv::F24 ; 
 
-  !NumpadAdd:: ;
-  !NumpadSub:: ;
-  !NumpadMult:: ;
-  !NumpadDiv:: ; 
+  !NumpadAdd::F24 ;
+  !NumpadSub::F24 ;
+  !NumpadMult::F24 ;
+  !NumpadDiv::F24 ; 
 
-  #NumpadAdd:: ;
-  #NumpadSub:: ;
-  #NumpadMult:: ;
-  #NumpadDiv:: ; 
+  #NumpadAdd::F24 ;
+  #NumpadSub::F24 ;
+  #NumpadMult::F24 ;
+  #NumpadDiv::F24 ; 
 
-  NumpadDot:: ; 
-  NumpadEnter:: ;
+  NumpadDot::F24 ; 
+  NumpadEnter::F24 ;
   
-  +NumpadDot:: ; 
-  +NumpadEnter:: ;
+  +NumpadDot::F24 ; 
+  +NumpadEnter::F24 ;
   
-  ^NumpadDot:: ; 
-  ^NumpadEnter:: ;
+  ^NumpadDot::F24 ; 
+  ^NumpadEnter::F24 ;
   
-  !NumpadDot:: ; 
-  !NumpadEnter:: ;
+  !NumpadDot::F24 ; 
+  !NumpadEnter::F24 ;
   
-  #NumpadDot:: ; 
-  #NumpadEnter:: ;
+  #NumpadDot::F24 ; 
+  #NumpadEnter::F24 ;
   
-  NumpadLeft:: ;
-  NumpadRight:: ;
-  NumpadDown:: ;
-  NumpadUp:: ;
+  NumpadLeft::F24 ;
+  NumpadRight::F24 ;
+  NumpadDown::F24 ;
+  NumpadUp::F24 ;
   
-  +NumpadLeft:: ;
-  +NumpadRight:: ;
-  +NumpadDown:: ;
-  +NumpadUp:: ;
+  +NumpadLeft::F24 ;
+  +NumpadRight::F24 ;
+  +NumpadDown::F24 ;
+  +NumpadUp::F24 ;
   
-  ^NumpadLeft:: ;
-  ^NumpadRight:: ;
-  ^NumpadDown:: ;
-  ^NumpadUp:: ;
+  ^NumpadLeft::F24 ;
+  ^NumpadRight::F24 ;
+  ^NumpadDown::F24 ;
+  ^NumpadUp::F24 ;
   
-  !NumpadLeft:: ;
-  !NumpadRight:: ;
-  !NumpadDown:: ;
-  !NumpadUp:: ;
+  !NumpadLeft::F24 ;
+  !NumpadRight::F24 ;
+  !NumpadDown::F24 ;
+  !NumpadUp::F24 ;
   
-  #NumpadLeft:: ;
-  #NumpadRight:: ;
-  #NumpadDown:: ;
-  #NumpadUp:: ;
+  #NumpadLeft::F24 ;
+  #NumpadRight::F24 ;
+  #NumpadDown::F24 ;
+  #NumpadUp::F24 ;
 
-  NumpadPgdn:: ;
-  NumpadPgup:: ;
-  NumpadHome:: ;
-  NumpadEnd:: ;
+  NumpadPgdn::F24 ;
+  NumpadPgup::F24 ;
+  NumpadHome::F24 ;
+  NumpadEnd::F24 ;
 
-  +NumpadPgdn:: ;
-  +NumpadPgup:: ;
-  +NumpadHome:: ;
-  +NumpadEnd:: ;
+  +NumpadPgdn::F24 ;
+  +NumpadPgup::F24 ;
+  +NumpadHome::F24 ;
+  +NumpadEnd::F24 ;
 
-  ^NumpadPgdn:: ;
-  ^NumpadPgup:: ;
-  ^NumpadHome:: ;
-  ^NumpadEnd:: ;
+  ^NumpadPgdn::F24 ;
+  ^NumpadPgup::F24 ;
+  ^NumpadHome::F24 ;
+  ^NumpadEnd::F24 ;
 
-  !NumpadPgdn:: ;
-  !NumpadPgup:: ;
-  !NumpadHome:: ;
-  !NumpadEnd:: ;
+  !NumpadPgdn::F24 ;
+  !NumpadPgup::F24 ;
+  !NumpadHome::F24 ;
+  !NumpadEnd::F24 ;
 
-  #NumpadPgdn:: ;
-  #NumpadPgup:: ;
-  #NumpadHome:: ;
-  #NumpadEnd:: ;
+  #NumpadPgdn::F24 ;
+  #NumpadPgup::F24 ;
+  #NumpadHome::F24 ;
+  #NumpadEnd::F24 ;
   
-  Numpaddel:: ;
-  NumpadIns:: ;
-  NumpadClear:: ;
+  Numpaddel::F24 ;
+  NumpadIns::F24 ;
+  NumpadClear::F24 ;
 
-  +Numpaddel:: ;
-  +NumpadIns:: ;
-  +NumpadClear:: ;
+  +Numpaddel::F24 ;
+  +NumpadIns::F24 ;
+  +NumpadClear::F24 ;
 
-  ^Numpaddel:: ;
-  ^NumpadIns:: ;
-  ^NumpadClear:: ;
+  ^Numpaddel::F24 ;
+  ^NumpadIns::F24 ;
+  ^NumpadClear::F24 ;
 
-  !Numpaddel:: ;
-  !NumpadIns:: ;
-  !NumpadClear:: ;
+  !Numpaddel::F24 ;
+  !NumpadIns::F24 ;
+  !NumpadClear::F24 ;
 
-  #Numpaddel:: ;
-  #NumpadIns:: ;
-  #NumpadClear:: ;
+  #Numpaddel::F24 ;
+  #NumpadIns::F24 ;
+  #NumpadClear::F24 ;
 
-  NumLock:: ;
-  +NumLock:: ;
-  ^NumLock:: ;
-  !NumLock:: ;
-  #NumLock:: ;
+  NumLock::F24 ;
+  +NumLock::F24 ;
+  ^NumLock::F24 ;
+  !NumLock::F24 ;
+  #NumLock::F24 ;
 
   ; ///////////////////////////
   ; End 60 % keyboard blocking

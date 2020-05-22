@@ -83,31 +83,91 @@ return
 CapsLock::Control
 +CapsLock::CapsLock
 
+
+
   ;////////////////////////////////////////////////////////////
-  ; Blocked Top row nummeric keys and +  and -. 
-  ; Like on a 40% keyboard, the top row numbers are blocked.
-  ; Unlike the qmk_40.ahk and qmk_60.ahk script, no other keys are blocked.
+  ; The following keys groups were made inactive, like in a 40% keyboard
+  ; - Top row nummeric keys and +  and -. 
   ;
   ; The ~ or backtick and the backspace aren not yet blocked. THese require sensible remapping first.
+  ;
+  ; No other keys are blocked.
   ;
   ; The above keys and these keys in combination with a single modifier, Shift, Control, Alt or Windows are blocked.
   ; I did not bother with removing them with combined modifiers. 
   ; 
   ;////////////////////////////////////////////////////////////
 
-  0:: ;
-  1:: ;
-  2:: ;
-  3:: ;
-  4:: ;
-  5:: ;
-  6:: ;
-  7:: ;
-  8:: ;
-  9:: ;
+  0::F24 ;
+  1::F24 ;
+  2::F24 ;
+  3::F24 ;
+  4::F24 ;
+  5::F24 ;
+  6::F24 ;
+  7::F24 ;
+  8::F24 ;
+  9::F24 ;
 
-  -:: ;
-  =:: ;
+  -::F24 ;
+  =::F24 ;
+
+  +0::F24 ;
+  +1::F24 ;
+  +2::F24 ;
+  +3::F24 ;
+  +4::F24 ;
+  +5::F24 ;
+  +6::F24 ;
+  +7::F24 ;
+  +8::F24 ;
+  +9::F24 ;
+
+  +-::F24 ;
+  +=::F24 ;
+
+  ^0::F24 ;
+  ^1::F24 ;
+  ^2::F24 ;
+  ^3::F24 ;
+  ^4::F24 ;
+  ^5::F24 ;
+  ^6::F24 ;
+  ^7::F24 ;
+  ^8::F24 ;
+  ^9::F24 ;
+
+  ^-::F24 ;
+  ^=::F24 ;
+
+
+  !0::F24 ;
+  !1::F24 ;
+  !2::F24 ;
+  !3::F24 ;
+  !4::F24 ;
+  !5::F24 ;
+  !6::F24 ;
+  !7::F24 ;
+  !8::F24 ;
+  !9::F24 ;
+
+  !-::F24 ;
+  !=::F24 ;
+
+  #0::F24 ;
+  #1::F24 ;
+  #2::F24 ;
+  #3::F24 ;
+  #4::F24 ;
+  #5::F24 ;
+  #6::F24 ;
+  #7::F24 ;
+  #8::F24 ;
+  #9::F24 ;
+
+  #-::F24 ;
+  #=::F24 ;
 
   ; ///////////////////////////
   ; End 40 % keyboard blocking
