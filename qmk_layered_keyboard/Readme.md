@@ -62,4 +62,6 @@ Unfortunately that had some weird side effects. For layer two we noticed that I 
 * More vim functionality integrated from other scripts
 * A variant that has the mapping of a Ducky keyboard instead of QMK 
 
+## References
 
+* Original layered keyboard script: copied from https://github.com/sj0000e/AutoHotKey
