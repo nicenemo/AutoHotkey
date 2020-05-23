@@ -57,13 +57,13 @@ SetLayer(num){
     }
   } Else{
     If(num = 0){
-      SplashImage, layer0.png
+      SplashImage, img\layer0.png
     } Else If(num = 1){
-      SplashImage, layer1.png
+      SplashImage, img\layer1.png
     } Else If(num = 2){
-      SplashImage, layer2.png
+      SplashImage, img\layer2.png
     } Else If(num = 3){
-      SplashImage, layer3.png
+      SplashImage, img\layer3.png
     }
     SetTimer, RemoveSplash, -2000
   }
@@ -577,10 +577,19 @@ l::9
 SC027::0 ; ';' key
 '::Escape
 
++a::!
++s::@
++d::#
++f::$
++g:: Send, `% ; '%' percent sign
++h::^
++j::&
++k::*
+
 z::`
-x::
-c::
-v::
+x::~
+c::+
+v::\
 b::(
 n::)
 m::-

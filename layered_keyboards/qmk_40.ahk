@@ -57,13 +57,13 @@ SetLayer(num){
     }
   } Else{
     If(num = 0){
-      SplashImage, layer0.png
+      SplashImage, img\layer0_40.png
     } Else If(num = 1){
-      SplashImage, layer1.png
+      SplashImage, img\layer1_40.png
     } Else If(num = 2){
-      SplashImage, layer2.png
+      SplashImage, img\layer2_40.png
     } Else If(num = 3){
-      SplashImage, layer3.png
+      SplashImage, img\layer3_40.png
     }
     SetTimer, RemoveSplash, -2000
   }
@@ -80,9 +80,14 @@ return
 ; Function http://www.keyboard-layout-editor.com/##@@=~%0A%60&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&=%2F&%0A7&=*%0A8&=(%0A9&=)%0A0&=%2F_%0A-&=+%0A%2F=&_w:2%3B&=Backspace%3B&@_w:1.5%3B&=Tab&=F1&=F2&=F3&=F4&=F5&=F6&=F7&=F8&=F9&=F10&=F11&=F12&_w:1.5%3B&=%7C%0A%5C%3B&@_w:1.75%3B&=LCtrl%0ANormal&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&=%2F&%0A7&=*%0A8&=(%0A9&=)%0A0&=Esc&_w:2.25%3B&=Enter%3B&@_w:2.25%3B&=Shift%0ANavigation&=~%0A%60&=X&=C&=V&=(&=)&=-&=%2F=&=%7C%0A%5C&=%3F%0A%2F%2F&_w:2.75%3B&=Shift%0ANumpad%0A%0A%0A%0A%0AFunction%3B&@_w:1.25%3B&=Ctrl&_w:1.25%3B&=Win&_w:1.25%3B&=Alt&_a:7&w:6.25%3B&=&_a:4&w:1.25%3B&=Alt&_w:1.25%3B&=Win&_w:1.25%3B&=Menu&_w:1.25%3B&=Ctrl
 ; Num pad http://www.keyboard-layout-editor.com/##@@=~%0A%60&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&=%2F&%0A7&=%2F%2F&=*&=-&=%2F_%0A-&=+%0A%2F=&_w:2%3B&=Backspace%3B&@_w:1.5%3B&=Tab&=Q&=W&=E&=R&=T&=Y&=7&=8&=9&=+&=%7B%0A%5B&=%7D%0A%5D&_w:1.5%3B&=%7C%0A%5C%3B&@_w:1.75%3B&=LCtrl%0ANormal&=A&=S&=D&=F&=G&=H&=4&=5&=6&=Enter&=%22%0A'&_w:2.25%3B&=Enter%3B&@_w:2.25%3B&=Shift%0ANavigation&=Z&=X&=C&=V&=B&=N&=1&=2&=3&=.&_w:2.75%3B&=Shift%0ANumpad%0A%0A%0A%0A%0AFunction%3B&@_w:1.25%3B&=Ctrl&_w:1.25%3B&=Win&_w:1.25%3B&=Alt&_w:6.25%3B&=0&_w:1.25%3B&=Alt&_w:1.25%3B&=Win&_w:1.25%3B&=Menu&_w:1.25%3B&=Ctrl
 ;//////////////////////////////////////////////////////////////
-CapsLock::Control
+Tab::Escape
+CapsLock::Tab
 +CapsLock::CapsLock
 
+\::Del
++\::Backspace
+^\::Home
+!\::End
 
   ;////////////////////////////////////////////////////////////
   ; Blocked keys for 60 % keyboard:
@@ -525,6 +530,21 @@ CapsLock::Control
   #-::F24 ;
   #=::F24 ;
 
+  Esc::F24 ;
+  Backspace:: F24 ;
+
+  +Esc::F24 ;
+  +Backspace:: F24 ;
+
+  ^Esc::F24 ;
+  ^Backspace:: F24 ;
+
+  !Esc::F24 ;
+  !Backspace:: F24 ;
+
+  #Esc::F24 ;
+  #Backspace:: F24 ;
+
   ; ///////////////////////////
   ; End 40 % keyboard blocking
   ; ///////////////////////////
@@ -571,7 +591,12 @@ $Rshift:: ; short tap trigger
   Send,{Rshift Up}
   Return
 
+;//////////////////////////////////////////////////////////////
+; layer 0 commands
+;//////////////////////////////////////////////////////////////
+#If kbd_layer=0
 
+return ; end kbd_layer= 1
 
 ;//////////////////////////////////////////////////////////////
 ; layer 1 commands
@@ -667,10 +692,19 @@ l::9
 SC027::0 ; ';' key
 '::Escape
 
++a::!
++s::@
++d::#
++f::$
++g:: Send, `% ; '%' percent sign
++h::^
++j::&
++k::*
+
 z::`
-x::
-c::
-v::
+x::~
+c::+
+v::\
 b::(
 n::)
 m::-
